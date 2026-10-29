@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Shopping Cart</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/script.js" defer></script>
+</head>
+
+<body>
+
+    <header class="navbar">
+        <h1>ShopEasy</h1>
+        <div class="cart-counter">
+            🛒 Cart: <span id="cart-count"></span>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2>Our Products</h2>
+
+        <section class="products" id="products">
+
+            <article class="product-card">
+                <h3>Book</h3>
+                <p class="price">Rs. 500</p>
+                <button id="AddToCart1">Add to Cart</button>
+            </article>
+            <article class="product-card">
+                <h3>Pen</h3>
+                <p class="price">Rs. 100</p>
+                <button id="AddToCart2">Add to Cart</button>
+            </article>
+            <article class="product-card">
+                <h3>Bag</h3>
+                <p class="price">Rs. 1,500</p>
+                <button id="AddToCart3">Add to Cart</button>
+            </article>
+            <article class="product-card">
+                <h3>Pencil</h3>
+                <p class="price">Rs. 50</p>
+                <button id="AddToCart4">Add to Cart</button>
+            </article>
+            <article class="product-card">
+                <h3>Notebook</h3>
+                <p class="price">Rs. 250</p>
+                <button id="AddToCart5">Add to Cart</button>
+            </article>
+        </section>
+
+        <section class="cart-section">
+            <h2>Shopping Cart</h2>
+
+            <div id="cart-items">
+                <p id="show-cart"></p>
+            </div>
+
+            <div class="cart-summary">
+                <h3>Total: <span id="total-price">Rs. 0</span></h3>
+                <button class="clear-btn">
+                    Clear Cart
+                </button>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
